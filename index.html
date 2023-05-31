@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html Lang="en">
+
+<head>
+    </style>
+    <!-- Boorstrap 4 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Porfólio Luiza Oliveira</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e787fc2c3a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"></link>
+<style class= background-color: #282828></style>
+
+    <!-- Definições de estilo, cor e alinhamento -->
+    <style>
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .foto-header {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 0%;
+        }
+        .PosicaoFoto{
+            position:relative;
+		    top: 90px;
+            left: -2px;
+        }
+
+        .fundoImagem{
+            position: relative;
+            position: fixed;
+            mask-repeat: no-repeat;
+            background-image: url('https://i.imgur.com/GWw9GVR.jpg');
+        }
+        .textoBranco {
+            color: white !important;
+        }
+
+        .posicaoTexto{
+            position:relative;
+		    top: -15px;
+            left: -250px;
+        }
+
+        .posicaoSobreMim{
+            position:relative;
+		    top: -185px;
+            left: 190px;
+        }
+
+        .posicaoDesSobreMim{
+            position:relative;
+		    top: -185px;
+            left: 245px;
+        }
+
+        .textoPreto {
+            color: rgb(39, 39, 39) !important;
+        }
+
+        .fundoBranco{
+            background-color: #ffffff;
+        }
+
+        .fundoCard{
+            background-color: #ce71ce;
+        }
+
+        .fundoCarGradiente{
+            background: -moz-linear-gradient(top,  #dcdd4e 0%,#7fabd3 50%,#7fabd3 51%,#dcdd4e 100%);
+            background: -webkit-linear-gradient(top,  #dcdd4e 0%,#dcdd4e 50%,#7fabd3 51%,#ce71ce 100%); 
+            
+        }
+
+        .titulosPretos {
+            text-decoration-style: double;
+            text-underline-position: below;
+            padding-bottom: 0px;
+            padding-left: 60px;
+            padding-top: 10px;
+            text-transform: uppercase;
+            font-style: inherit;
+            font-weight: 500;
+            font-size: 12;
+            color: #ffffff;
+        }
+        
+        .fonteHeader{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+        }
+
+        .body{
+            background-color: #282828;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top fundoImagem fixed-top not-repeat">
+         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="textoBranco bi bi-bookmarks-fill" viewBox="0 0 16 16">
+            <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+            <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+          </svg>
+        <a class="navbar-brand textoBranco" href="#">Luiza Oliveira</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link textoBranco" href="#">Sobre mim<span class="sr-only">(atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoBranco" href="#">Projetos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle textoBranco" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contato</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://www.linkedin.com/in/luizaoliveiraesilva/">Linkedin</a>
+                <a class="dropdown-item" href="oliveiraesilvaluiza@gmail.com">E-mail</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-9 fundoImagem text-center">
+        <br></br>
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <p class="lead font-weight-normal textoBranco fonteHeader">Luiza Oliveira</p>
+          <p class="lead font-weight-normal textoBranco">Desenvolvedora front-end | HTML, CSS, JavaScript, Php e Python</p>
+          <a class="btn btn-dark" href="">Baixe o CV</a>
+        </div>
+        <div class="product-device box-shadow d-none d-md-block"></div>
+        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+      </div>
+    <!-- Projeto 1-->
+    <div class="album py-5 corSecundaria text-center body" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center textoBranco">Confira meus projetos:<br></br></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCarGradiente">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.imgur.com/LourjHH.jpg"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Página de compras - Projeto desenvolvido com HTML e CSS</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://paginadecompras.netlify.app/"> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href="https://github.com/LuizaOES/htmlandcss/blob/main/codigo_pagina_de_compras"> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 2-->
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCard">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="https://i.imgur.com/MUG5WGJ.jpg"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Página de finalização de compras - Projeto desenvolvido com HTML e CSS</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCarGradiente">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="https://i.imgur.com/ut4k4DM.jpg"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Tela de login desenvolvida com HTML e CSS.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 4 -->
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCard">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="https://i.imgur.com/xBvm1ZF.jpg"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Página desenolvida com HTM e CSS, onde é possível acessar projetos em Python.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 5 -->
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCarGradiente">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="https://i.imgur.com/zdwpKjs.png"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Página simples para site. Desenvolvida com HTML, CSS e JavaScript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- Projeto 6-->
+                <div class="col-md-4">
+                    <div class="card mb-3 box-shadow fundoCard">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="https://i.imgur.com/AZ3UFHz.jpg"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">App de monitoramento de estoque. Desenvolvido em HTML, CSS e JavaScript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Visualizar</button></a>
+                                    <a href=""> <button type="button"
+                                            class="btn btn-light">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                        
+                    <!-- Sobre Mim -->
+                    <section>
+                        <section class="body">
+                            <div class="container">
+                                <img class="foto-perfil PosicaoFoto" 
+                                    src="https://i.imgur.com/DqaqtIy.jpg" alt="">
+                                <p class="lead text-muted textoBranco"><br></br><br></br>Olá! Eu me chamo Luiza, esse é meu avatar gerado por uma IA, mas se quiser entrar em contato direto comigo você pode clicar em "Contato" na barra colorida logo acima. Sou analista de sistemas e desenvolvedora front-end, estou sempre me atualizando para entregar o melhor. Nessa página é possível conferir alguns dos meus projetos e se gostar saiba que estou disponível para oportunidades. Obrigada! </p>
+                     </h1>
+                      </section>
+                     <!--Footer-->
+                     <section>
+                        <div class="textoBranco" >
+                           <p><br></br><br></br><br></br>Copyright 2023 - Luiza Oliveira</p>
+                        </div>
+                     </h1>
+                      </section>
+        
+      </div>
+
+</body>
+</html>
